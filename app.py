@@ -22,10 +22,10 @@ app.config['MAIL_DEFAULT_SENDER'] = os.environ.get('EMAIL_DEFAULT_SENDER')  # Yo
 
 mail = Mail(app)
 
-USER_NAME = os.environ.get('USER_NAME')
-USER_PASSWORD = os.environ.get('USER_PASSWORD')
-ADMIN_NAME = os.environ.get('ADMIN_NAME')
-ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD')
+USER_NAME = ayu
+USER_PASSWORD = mybfisthebest
+ADMIN_NAME = admin
+ADMIN_PASSWORD = admin
 PORTAL_URL = os.environ.get('PORTAL_URL')
 
 def init_db():
